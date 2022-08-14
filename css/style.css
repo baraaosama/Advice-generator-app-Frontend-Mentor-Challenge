@@ -29,6 +29,13 @@ body {
     position: relative;
 }
 
+@media (max-width:500px) {
+    .container .card {
+        width: 350px;
+        height: 350px;
+    }
+}
+
 .container .card .button {
     cursor: pointer;
     width: 50px;
